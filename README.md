@@ -3,10 +3,13 @@
 This project explores Meta's historical stock data and builds a simple LSTM-based model to forecast the closing price.  
 It includes quick EDA, a candlestick chart, and a baseline LSTM with sliding windows.
 
+### Model Performance\n\n- Test RMSE: 0.1526 USD\n- Test MAE: 0.1181 USD\n R² Score: 0.919"
+
 ## Dataset
 - File: `meta.csv`
 - Columns: `Date, Close/Last, Volume, Open, High, Low`
 - Notes: Prices contain `$` and are cleaned to floats; dates are parsed as `%m/%d/%Y`.
+- Dataset Source: Yahoo Finance
 
 ## What’s inside
 - **EDA**: trends, moving averages, returns distribution, correlations, and volume.
