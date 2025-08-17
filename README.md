@@ -3,7 +3,10 @@
 This project explores Meta's historical stock data and builds a simple LSTM-based model to forecast the closing price.  
 It includes quick EDA, a candlestick chart, and a baseline LSTM with sliding windows.
 
-### Model Performance\n\n- Test RMSE: 0.1526 USD\n- Test MAE: 0.1181 USD\n R² Score: 0.919"
+### Model Performance
+- Test RMSE: 0.1526 USD
+- Test MAE: 0.1181 USD
+- R² Score: 0.919"
 
 ## Dataset
 - File: `meta.csv`
